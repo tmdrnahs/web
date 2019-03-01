@@ -1,14 +1,34 @@
+<!DOCTYPE html>
 <html>
 <head>
-    <title>WEB1 - css</title>
+    <title>WEB1 - CSS</title>
     <meta charset="utf-8">
+    <style>
+        /* tag selector */
+        a {
+            color: black;
+            text-decoration: none;
+        }
+        h1 {
+            font-size: 45px;
+            text-align: center;
+        }
+        /* class selector */
+        .visited {
+            color: gray;
+        }
+        /* ID selector */
+        #active {
+            color: red;
+        }
+    </style>
 </head>
 <body>
     <h1><a href="index.html">WEB</a></h1>
     <ol>
-        <li><a href="html.html">HTML</a></li>
-        <li><a href="css.html">CSS</a></li>
-        <li><a href="javascript.html">JavaScript</a></li>
+        <li><a href="html.html" class="visited">HTML</a></li>
+        <li><a href="css.html" class="visited" id="active">CSS</a></li>
+        <li><a href="javascript.html" class="visited">JavaScript</a></li>
     </ol>
     <h2>CSS</h2>
     <p align="middle"><iframe width="640" height="360" src="https://www.youtube.com/embed/ONcmkf07EuI?list=PLuHgQVnccGMDaVaBmkX0qfB45R_bYrV62" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
