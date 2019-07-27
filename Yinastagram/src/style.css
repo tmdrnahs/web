@@ -1,0 +1,15 @@
+h1 {
+    font-size: 45px;
+    margin: 0;
+    padding: 20px;
+}
+
+a {
+    font-family: initial;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover { 
+    color: red;
+}
